@@ -364,7 +364,7 @@ const Header = ({ local_varaiable, ThemeChanger }) => {
                 </button>
               </div>
 
-              <div className="header-element py-[1rem] md:px-[0.65rem] px-2  header-country hs-dropdown ti-dropdown  hidden sm:block [--placement:bottom-left]">
+              {/* <div className="header-element py-[1rem] md:px-[0.65rem] px-2  header-country hs-dropdown ti-dropdown  hidden sm:block [--placement:bottom-left]">
                 <button id="dropdown-flag" type="button"
                   className="hs-dropdown-toggle ti-dropdown-toggle !p-0 flex-shrink-0  !border-0 !rounded-full !shadow-none">
                   <img src={us} alt="flag-img" className="h-[1.25rem] w-[1.25rem] rounded-full" />
@@ -454,7 +454,7 @@ const Header = ({ local_varaiable, ThemeChanger }) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="header-element header-theme-mode hidden !items-center sm:block !py-[1rem] md:!px-[0.65rem] px-2" onClick={() => ToggleDark()}>
                 <Link aria-label="anchor"
                   className="hs-dark-mode-active:hidden flex hs-dark-mode group flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium transition-all text-xs dark:bg-bgdark dark:hover:bg-black/20 dark:text-[#8c9097] dark:text-white/50 dark:hover:text-white dark:focus:ring-white/10 dark:focus:ring-offset-white/10"
@@ -718,8 +718,8 @@ const Header = ({ local_varaiable, ThemeChanger }) => {
                   <img className="inline-block rounded-full " src={face9} width="32" height="32" alt="Image Description" />
                 </button>
                 <div className="md:block hidden dropdown-profile cursor-pointer">
-                  <p className="font-semibold mb-0 leading-none text-[#536485] text-[0.813rem] ">Json Taylor</p>
-                  <span className="opacity-[0.7] font-normal text-[#536485] block text-[0.6875rem] ">Web Designer</span>
+                  <p className="font-semibold mb-0 leading-none text-[#536485] text-[0.813rem] ">Praveen Manchi</p>
+                  <span className="opacity-[0.7] font-normal text-[#536485] block text-[0.6875rem] ">Admin</span>
                 </div>
                 <div
                   className="hs-dropdown-menu ti-dropdown-menu !-mt-3 border-0 w-[11rem] !p-0 border-defaultborder hidden main-header-dropdown  pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
